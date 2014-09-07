@@ -1,8 +1,8 @@
 // Typography
 $sans-serif: $helvetica;
 $serif: $georgia;
-$base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
+$base-font-family: 'Inconsolata';
+$header-font-family: 'Karla', sans-serif;
 
 // Sizes
 $base-font-size: 1em;
@@ -12,19 +12,21 @@ $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(3);
 
 // Colors
-$blue: #477DCA;
+$blue: #0000ff;
+$gray: #dfdfdf;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
+$white: white;
 
 // Background Color
-$base-background-color: white;
+$base-background-color: $blue;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: white;
 $base-accent-color: $blue;
 
 // Link Colors

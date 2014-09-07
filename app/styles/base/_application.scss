@@ -22,10 +22,63 @@
  * ---------------------------------------------------------------------------
  */
 
-.header-primary {}
+.header-primary {
+	position: fixed;
+	z-index: 500;	
+	top:20px;
+	left:20px;
+
+	#spin {
+	  width:80px;
+	  height:80px;
+	}
+
+	#spin img {
+	  max-width: 100%;
+	}
+
+}
 
 .nav-primary {}
 
-.content-primary {}
+.content-primary {
+	width:87.5%;
+	margin-left:10.5%;
+	border:1px solid white;
+	padding:30px;
+}
 
 .footer-primary {}
+
+
+html, body {
+	height:100%;
+}
+
+
+.grid {
+	position:absolute;
+	opacity:0.4;
+	height:1600px;
+	width:100%;
+	background-size: 220px 220px, 220px 220px;
+	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	background-image: -webkit-linear-gradient(white 2px, transparent 2px),
+	                  -webkit-linear-gradient(0, white 2px, transparent 2px),
+	                  -webkit-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	                  -webkit-linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-image: -moz-linear-gradient(white 2px, transparent 2px),
+	                  -moz-linear-gradient(0, white 2px, transparent 2px),
+	                  -moz-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	                  -moz-linear-gradient(0, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-image: linear-gradient(white 2px, transparent 2px),
+	                  linear-gradient(90deg, white 2px, transparent 2px),
+	                  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	                  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	-pie-background: linear-gradient(white 2px, transparent 2px) -2px -2px / 100px,
+	                 linear-gradient(90deg, white 2px, transparent 2px) -2px -2px / 100px,
+	                 linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px) -1px -1px / 20px,
+	                 linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px) -1px -1px / 20px,
+	                 #269;
+	behavior: url(/pie/PIE.htc);
+}

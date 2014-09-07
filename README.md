@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dm
 
 [Describe the project.]
@@ -27,3 +28,7 @@ Build the concatenated, minified production version of the source into the `dist
 
 ##### grunt deploy
 Deploy the production version of the source to [GitHub Pages](http://pages.github.com/) via [grunt-build-control](https://github.com/robwierzbowski/grunt-build-control).
+=======
+dm
+==
+>>>>>>> 63bd339539ec619cc046758efdd7816037cacaac
