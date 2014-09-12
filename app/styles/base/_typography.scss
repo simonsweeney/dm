@@ -19,7 +19,8 @@ h1 {
 }
 
 h2 {
-  font-size: $base-font-size * 2; // 16 * 2 = 32px
+  font-size: 36px;
+  font-weight:normal;
 }
 
 h3 {
@@ -85,3 +86,12 @@ cite {
     content: '\2014 \00A0';
   }
 }
+
+
+
+
+
+
+/* Elements */
+
+/* Links on white bg have blue background, will look v cool */

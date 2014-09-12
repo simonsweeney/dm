@@ -1,0 +1,101 @@
+.hot, .classic {
+	border:1px solid white;
+	padding:30px;
+	background: $blue;
+
+}
+
+
+.hot {
+	height:730px;
+	position:absolute;
+	.hotText {
+		width:45%;
+		position: relative;
+		z-index:12;
+		p {
+			font-size:14px;
+		}
+
+		a {
+			color:$white;
+			&:hover {
+				background:$white;
+				color:$blue;
+			}
+		}
+
+		.date, .caption, .readMore {
+			padding-left: 30px;
+		}
+		
+		h2 {
+			padding-top:20px;
+			padding-bottom:30px;
+		}
+	}
+	
+	.hotImage {
+		position:absolute;
+		z-index:11;
+		right:0;
+		bottom:0;
+		width:80%;
+		height:600px;
+		background:$white;
+	}
+
+	.hotBullets {
+		position:absolute;
+		top:0;
+		right:0;
+	}
+}
+
+
+.classic {
+	height:730px;
+	position:absolute;
+	.classicText {
+		width:45%;
+		margin-left:55%;
+		right:0;
+		z-index:20;
+		p {
+			font-size:14px;
+		}
+
+		a {
+			color:$white;
+			&:hover {
+				background:$white;
+				color:$blue;
+			}
+		}
+
+		.date, .caption, .readMore {
+			padding-left: 30px;
+		}
+		
+		h2 {
+			padding-top:20px;
+			padding-bottom:30px;
+		}
+	}
+	
+	.classicImage {
+		position:absolute;
+		z-index:11;
+		left:0;
+		bottom:0;
+		width:80%;
+		height:600px;
+		background:$white;
+		
+	}
+
+	.classicBullets {
+
+	}
+}
+

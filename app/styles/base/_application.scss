@@ -75,13 +75,23 @@
 		right:22%;
 	}
 
+	#menu4 {
+		top:78%;
+		right:24%;
+	}
+
+	#menu5 {
+		top:73%;
+		left:42%;
+	}
+
 }
 
 .content-primary {
 	width:87.5%;
 	margin-left:10.5%;
-	border:1px solid white;
-	padding:30px;
+	position: relative;
+	z-index:10;
 }
 
 .footer-primary {}
@@ -94,8 +104,9 @@ html, body {
 
 .grid {
 	position:absolute;
-	opacity:0.4;
-	height:1600px;
+	z-index:-1;
+	opacity:0.5;
+	height:3600px;
 	width:100%;
 	background-size: 220px 220px, 220px 220px;
 	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
@@ -118,3 +129,13 @@ html, body {
 	                 #269;
 	behavior: url(/pie/PIE.htc);
 }
+
+
+
+
+
+
+
+/* Elements */
+
+
