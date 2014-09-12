@@ -39,7 +39,43 @@
 
 }
 
-.nav-primary {}
+.nav-primary {
+
+	.menu {
+		position:fixed;
+		width:130px;
+		height:70px;
+		background:$white;
+		border:1px solid $white;
+		color:$blue;
+		padding-left:8px;
+		padding-top:3px;
+		font-size:14px;
+		@include transition;
+	}
+
+	.menu:hover {
+		background:none;
+		color:$white;
+		border:1px solid $white;
+	}
+
+	#menu1 {
+		top:40%;
+		left:45%;
+	}
+
+	#menu2 {
+		top:13%;
+		left:18%;
+	}
+
+	#menu3 {
+		top:23%;
+		right:22%;
+	}
+
+}
 
 .content-primary {
 	width:87.5%;

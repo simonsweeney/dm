@@ -11,3 +11,11 @@
     color: $hover-color;
   }
 }
+
+
+@transition {
+	-webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
+}
